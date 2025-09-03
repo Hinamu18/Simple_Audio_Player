@@ -1,5 +1,5 @@
 # Simple_Audio_Player
-it's just too simple, don't expect much
+it's just too simple, don't expect much (also it's underdevolp) 0.1
 
 ### usage
 ```
