@@ -1,8 +1,13 @@
 # Simple_Audio_Player
 it's just too simple, don't expect much
 
+### usage
+```
+Simple_Audio_player <filename> or <fullpath>
+```
+----
 make sure you have **SDL2** and **SDL2_mixer** installed
-
+----
 ### Installing SDL2 and SDL2_mixer
 Debian based:
 ```
