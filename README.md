@@ -1,10 +1,14 @@
-# Simple_Audio_Player
-simple and minimal
+# HinaP
+simple and minimal audio player
 
 ### usage
 ```
-Simple_Audio_player <filename> or <fullpath>
+HinaP <filename> or <fullpath>
 ```
+# note
+~~~ 
+after u will compile its up to you if u want to put it in /bin/
+~~~
 ----
 make sure you have **SDL2** and **SDL2_mixer** installed
 ----
