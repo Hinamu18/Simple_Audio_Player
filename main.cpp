@@ -17,7 +17,7 @@ int main (int argc, char *argv[]){
     choseAudio();
     dir = true;
     playMusic();
-    printMenu(dir);
+    repeate();
   }
 
   bool quit = false;
@@ -32,20 +32,22 @@ int main (int argc, char *argv[]){
           switch (arrowKey) {
             case 'A':  // up
               setVolume(volume + 10);
+              repeate();
               std::cout << "Volume increased to " << volume << std::endl;
               break;
-              repeate();
             case 'B':  // down
               setVolume(volume - 10);
+              repeate();
               std::cout << "Volume decreased to " << volume << std::endl;
               break;
-              repeate();
             case 'D': // Right
               nextFile(-1);
               repeate();
+              break;
             case 'C': // Left
               nextFile(1);
               repeate();
+            break;
           }
         }
         break;
@@ -75,12 +77,10 @@ int main (int argc, char *argv[]){
         quit = true;
         break;
       case 'd': //change audio from DIR 
-        Dir_Show();
         repeate();
+        Dir_Show();
       default:
         break;
-
-        repeate();
     }
 
     std::this_thread::sleep_for(std::chrono::milliseconds(10));
