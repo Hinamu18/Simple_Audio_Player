@@ -1,5 +1,5 @@
 # HinaP
-simple and minimal audio player
+is a simple and minimal audio player
 
 ### usage
 ```
